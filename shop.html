@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css ">
+
+    <!-- remix icon cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Brand. </a>
+
+        <nav class="navbar ">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/perfume.png" alt="">
+                <div class="content">
+                    <h3>Perfumes</h3>
+                    <span class="price">999</span>
+                    <span class="quantity">qty : 2345</span>
+                </div>
+            </div>
+                        <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/deodorant.png" alt="">
+                <div class="content">
+                    <h3>Deodorants</h3>
+                    <span class="price">999</span>
+                    <span class="quantity">qty : 2345</span>
+                </div>
+            </div>
+            <div class="total"> total : 23456</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forgot your pasword...? <a href="#">click here</a> </p>
+            <p>don't have an account...? <a href="#">create one</a> </p>
+            <input type="submit" value="login" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+    
+    <!-- home section start -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>smell good all year long</h3>
+            <p>get a perfume for every occasion </p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </section>
+
+
+
+    <!-- home section ends -->
+
+    <!-- feature section starts -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> our <span>features</span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/feature-img-1.png" alt="">
+                <h3>open 24/7 </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam exercitationem</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature-img-2.png" alt="">
+                <h3>secure delivery </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam exercitationem</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/feature-img-3.png" alt="">
+                <h3>easy payment </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam exercitationem</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- feature section ends -->
+
+    <!-- products section starts -->
+
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://cdn.shopify.com/s/files/1/0621/1911/6979/products/mousof.png?v=1653336241" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.yaoota.com/-6zfZs77HWNhi1yyT1oCQs4KQ54=/trim/fit-in/500x500/filters:quality(80)/yaootaweb-production-ng/media/crawledproductimages/8dbef94174d102482692efa53a4d4510dbefbd50.jpg" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVr_6xqetFRTDXS-y5BjjF8yqh_z-Z-LZPg&usqp=CAU" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+               
+               
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTurTThiB47RHnETSQvo3Ki9q3qF4b7jKJoOCe3Y3nQDrtj6ILC5F-raC0g6gGvdi1etj0&usqp=CAU" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/S/A/182633_1652075156.jpg" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QZIjDI84OnOEEfxMEKD7SGcCcvOu2PWm8HypBr9rJ45OskKSVMZmRWU6xjllU-BqMOk&usqp=CAUU" alt="">
+                    <h3></h3>
+                    <div class="price"> ₦5000</div>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to  cart</a>
+                </div>
+               
+               
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts -->
+
+    <ssection class="categories" id="categories">
+
+        <h1 class="heading"> product <span>categories</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/40/640441/1.jpg?3623" alt="">
+                <h3>Eau De Toilette</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fragrances.com.ng/media/catalog/product/cache/4cf9e516177489ae500dec59d26ccb3b/a/f/afnan_riwayat_florale_edp_100ml_for_women.jpg" alt="">
+                <h3>Eau De parfum</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://lamifragrance.com/wp-content/uploads/2022/06/aramis-perfume-aramis-900-eau-de-cologne-100ml-3624270790758.jpg" alt="">
+                <h3>Eau De Cologne</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://cdn.shopify.com/s/files/1/0507/4177/2457/products/VersaceManEauFraiche100mlDeodorantSpray_500x.jpg?v=1618865033" alt="">
+                <h3>Eau De fraiche</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+
+        </div>
+
+    </ssection>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="reviews">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <h3>jane doe</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lhE9UpdBkX1Sv94pmC3NTSkxT5ytXBKveaJ5OcDYCr4ChNEVjzz_WalE6YsGQA6EksQ&usqp=CAU" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <h3>john doe</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ltblIrlNEPGQ5BC8c_NDTfiPs8_H290jLZH21kbUYISe8zVbFLwR0Br_-6v6T1O1U74&usqp=CAU" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <h3>mary</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blog section starts -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blog</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://images.pexels.com/photos/1557980/pexels-photo-1557980.jpeg?cs=srgb&dl=pexels-kade-jermark-1557980.jpg&fm=jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 26st june, 2022 </a>
+                    </div>
+                    <h3>nice fragrance to start your day with</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius excepturi iusto </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://c1.wallpaperflare.com/preview/116/718/497/perfume-scent-body-spray-cosmetics-thumbnail.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 26st june, 2022 </a>
+                    </div>
+                    <h3>nice fragrance to start your day with</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius excepturi iusto </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://nigerianprice.com/wp-content/uploads/2020/02/jadore-perfume-price-in-nigeria.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 26st june, 2022 </a>
+                    </div>
+                    <h3>nice fragrance to start your day with</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae eius excepturi iusto </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blog section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> company name <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="share">
+                    <a href="#"> <i class="ri-facebook-fill"></i> </a>
+                    <a href="#"> <i class="ri-twitter-fill"></i> </a>
+                    <a href="#"> <i class="ri-instagram-fill"></i> </a>
+                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3> contact info </h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +234-80 5557-7889 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +234-90-3337-7999 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> wadebarrett016@gmail.com </a>
+            </div>
+
+            <div class="box">
+                <h3> quick link </h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> product </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3> newsletter </h3>
+                <p> subscribe for latest updates </p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="images/pngegg.png" alt="" class="payment-img">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>D-wade</span> | all right reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper cdn js link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="shop.js"></script>
+</body>
+</html>
